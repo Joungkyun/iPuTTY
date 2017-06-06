@@ -2155,7 +2155,7 @@ void setup_config_box(struct controlbox *b, int midsession,
 			 HELPCTX(connection_username),
 			 conf_editbox_handler, I(CONF_username), I(1));
 #ifdef AUTOPASS
-	    c = ctrl_editbox(s, "Auto-login password", 'u', 50,
+	    c = ctrl_editbox(s, "자동 로그인 암호", 'u', 50,
 			 HELPCTX(connection_username),
 			 conf_editbox_handler, I(CONF_password), I(1));
 	    c->editbox.password = 1;
